@@ -1,7 +1,7 @@
-#Git Commands
+# Git Commands
 
--mkdir 
+- mkdir 
 >This command creates a new directory: mkdir example.
 
--cd
+- cd
 >With this command you can enter to a directory: cd example.
