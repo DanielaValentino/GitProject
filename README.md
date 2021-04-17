@@ -26,6 +26,7 @@
 
 - git diff
 >To see the changes not yet staged.
+<<<<<<< HEAD
 
 - git commit
 >This command is used to commit chages.
@@ -35,3 +36,5 @@
 
 - git rm
 >Is used to remove a file from the working tree and from the index.
+=======
+>>>>>>> 6c144a7046f6dc449fd2381318c48f37f01f3b03
