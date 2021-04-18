@@ -7,7 +7,7 @@
 >With this command you can enter to a directory. *Ex.* cd example.
 
 - cd ..
->Command to move the user up one directory.
+>Command to move the user up one directory. 
 
 - nano
 >To create a new file. *Ex.* nano README.md
@@ -26,7 +26,6 @@
 
 - git diff
 >To see the changes not yet staged.
-<<<<<<< HEAD
 
 - git commit
 >This command is used to commit chages.
@@ -36,5 +35,15 @@
 
 - git rm
 >Is used to remove a file from the working tree and from the index.
-=======
->>>>>>> 6c144a7046f6dc449fd2381318c48f37f01f3b03
+
+-git mv
+You can rename or move a file with this command.
+
+- git branch
+>Used to create a new branch. 
+
+- git branch -d
+>With this command you erase a branch.
+
+- git checkout
+>This changes the currently active branch.
