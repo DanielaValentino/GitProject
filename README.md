@@ -36,19 +36,15 @@
 - git rm
 >Is used to remove a file from the working tree and from the index.
 
-<<<<<<< HEAD
--git mv
+- git mv
 You can rename or move a file with this command.
 
 - git branch
->Used to create a new branch. 
+>You use this command to create a branch.
 
 - git branch -d
 >With this command you erase a branch.
 
 - git checkout
 >This changes the currently active branch.
-=======
-- git branch
->You use this command to create a branch.
->>>>>>> 2b91c556e06425f40f95ce9e25f3d83ff9c3cd7a
+
