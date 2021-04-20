@@ -10,7 +10,7 @@
 >With this command you can enter to a directory. *Ex.* cd example.
 
 - cd ..
->Command to move the user up one directory. 
+>Command to move the user up one directory. *Ex.* cd .. 
 
 - ls 
 >You can list current files and directories with this command.
@@ -22,7 +22,13 @@
 >To create a new file. *Ex.* nano README.md
 
 - git status
->To see what files are in which state.
+>To see what files are in which state. *Ex.* git status
+
+
+
+cat README.md	Display the contents of a text file you created previously
+pwd	Show the current directory
+clear	Clear the shell window  
  
 
 # **Git/github**
