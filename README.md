@@ -46,18 +46,28 @@
 - git log
 >It lists the commits made in the repository in reverse chronological order.
 
+<<<<<<< HEAD
 -git mv
+=======
+- git rm
+>Is used to remove a file from the working tree and from the index.
+
+- git mv
+>>>>>>> 8655d7a52f3133808e51085a9c899f3736dc60a1
 You can rename or move a file with this command.
 
 - git branch
->Used to create a new branch. 
+>You use this command to create a branch.
 
 - git branch -d
 >With this command you erase a branch.
 
 - git checkout
 >This changes the currently active branch.
+<<<<<<< HEAD
 =======
 - git branch
 >You use this command to create a branch.
+=======
+>>>>>>> 8655d7a52f3133808e51085a9c899f3736dc60a1
 
