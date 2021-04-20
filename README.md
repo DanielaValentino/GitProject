@@ -1,7 +1,10 @@
-# Git Commands
+# **The Command line.** Git Basic Commands
 
 - mkdir 
 >This command creates a new directory. *Ex.* mkdir example.
+
+- git rm
+>Is used to remove a file from the staging area and working directory. *Ex.* git rm example
 
 - cd
 >With this command you can enter to a directory. *Ex.* cd example.
@@ -9,14 +12,24 @@
 - cd ..
 >Command to move the user up one directory. 
 
+- ls 
+>You can list current files and directories with this command.
+
+- ls -a
+>Command to show hidden files and folders.
+
 - nano
 >To create a new file. *Ex.* nano README.md
 
-- git init
->Is used to initialize a repository.
-
 - git status
 >To see what files are in which state.
+ 
+
+# **Git/github**
+
+
+- git init
+>Is used to initialize a repository.
 
 - git clone
 >Command to clone an existent repository. *Ex.* git clone -url-
@@ -33,10 +46,6 @@
 - git log
 >It lists the commits made in the repository in reverse chronological order.
 
-- git rm
->Is used to remove a file from the working tree and from the index.
-
-<<<<<<< HEAD
 -git mv
 You can rename or move a file with this command.
 
@@ -51,4 +60,4 @@ You can rename or move a file with this command.
 =======
 - git branch
 >You use this command to create a branch.
->>>>>>> 2b91c556e06425f40f95ce9e25f3d83ff9c3cd7a
+
