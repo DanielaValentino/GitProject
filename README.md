@@ -37,14 +37,14 @@
 
 # **Git/github**
 
-- git config --global user.name ""
+- git config --global user.name " "
 >For personal configuration of username.  *Ex.* git config --global user.name "Example Name"
 
-- git config --global user.email 
+- git config --global user.email " "
 >To configurate the personal email.  *Ex.*  git config --global user.email "example@gmail.com"
 
 - git init
->Is used to initialize a repository.  *Ex. git init example*
+>Is used to initialize a repository.  *Ex.* git init examplename
 
 - git clone
 >Command to clone an existent repository. *Ex.* git clone - url -
