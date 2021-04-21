@@ -24,11 +24,14 @@
 - git status
 >To see what files are in which state. *Ex.* git status
 
+- git cat 
+>This command display the contents of a text file you created previously. *Ex.* git cat README.md
 
+- pwd	
+>It is used to show the current directory.
 
-cat README.md	Display the contents of a text file you created previously
-pwd	Show the current directory
-clear	Clear the shell window  
+- clear	
+>To clear the shell window.  
  
 
 # **Git/github**
