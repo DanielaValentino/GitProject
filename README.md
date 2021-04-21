@@ -32,22 +32,31 @@
 
 - clear	
 >To clear the shell window.  
+
  
 
 # **Git/github**
 
+- git config --global user.name ""
+>For personal configuration of username.  *Ex.* git config --global user.name "Example Name"
+
+- git config --global user.email 
+>To configurate the personal email.  *Ex.*  git config --global user.email "example@gmail.com"
 
 - git init
->Is used to initialize a repository.
+>Is used to initialize a repository.  *Ex. git init example*
 
 - git clone
->Command to clone an existent repository. *Ex.* git clone -url-
+>Command to clone an existent repository. *Ex.* git clone - url -
+
+
+
 
 - git add
 >You can add a file to a repository. *Ex.* add README.md
 
 - git diff
->To see the changes not yet staged.
+>To see the changes not yet staged.  *Ex.* git diff
 
 - git commit
 >This command is used to commit chages.
@@ -55,15 +64,11 @@
 - git log
 >It lists the commits made in the repository in reverse chronological order.
 
-<<<<<<< HEAD
--git mv
-=======
 - git rm
 >Is used to remove a file from the working tree and from the index.
 
 - git mv
->>>>>>> 8655d7a52f3133808e51085a9c899f3736dc60a1
-You can rename or move a file with this command.
+>You can rename or move a file with this command.
 
 - git branch
 >You use this command to create a branch.
@@ -73,10 +78,5 @@ You can rename or move a file with this command.
 
 - git checkout
 >This changes the currently active branch.
-<<<<<<< HEAD
-=======
-- git branch
->You use this command to create a branch.
-=======
->>>>>>> 8655d7a52f3133808e51085a9c899f3736dc60a1
 
+- 
