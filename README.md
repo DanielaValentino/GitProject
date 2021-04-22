@@ -50,6 +50,12 @@
 >Command to clone an existent repository. *Ex.* git clone - url -
 
 
+## Basic workflow commands
+
+- Stage
+
+
+-Commit
 
 
 - git add
@@ -70,13 +76,23 @@
 - git mv
 >You can rename or move a file with this command.
 
+- ***Push to a remote repository***
+
+## Branches
+
 - git branch
->You use this command to create a branch.
+>You use this command to create a branch.  *Ex.* 
 
 - git branch -d
->With this command you erase a branch.
+>With this command you erase a branch. *Ex.*
 
 - git checkout
->This changes the currently active branch.
+>This changes the currently active branch. *Ex.*
 
-- 
+- Save
+
+- Commit
+
+- Merge
+
+- Gitflow
