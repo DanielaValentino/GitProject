@@ -3,10 +3,10 @@
 - mkdir 
 >This command creates a new directory. *Ex.* mkdir example.
 
-- git rm
+- git rm -namefile-
 >Is used to remove a file from the staging area and working directory. *Ex.* git rm example
 
-- cd
+- cd -namedirectory-
 >With this command you can enter to a directory. *Ex.* cd example.
 
 - cd ..
@@ -58,14 +58,20 @@
 -Commit
 
 
-- git add
->You can add a file to a repository. *Ex.* add README.md
+- git add -filename-
+>You can add a file to the staging area. *Ex.* add README.md
+
+- git reset -filname-
+>To get the file back from staging area to working directory.  *Ex.* git reset example
 
 - git diff -file-
 >To see the changes between working directory and staging area.  *Ex.* git diff example
 
 - git commit
->This command is used to commit chages.
+>This command is used to commit chages added to the staging area.
+
+- git checkout -- -file-
+>Command to discard changes in the working directory.
 
 - git log
 >It lists the commits made in the repository in reverse chronological order.
@@ -83,19 +89,22 @@
 - git branch -name-
 >You use this command to create a new branch.  *Ex.* git branch test 
 
-- git branch -d
->With this command you erase a branch. *Ex.* git branch-d test
+- git branch -d -branchname-
+>With this command you erase the selected branch. *Ex.* git branch-d test
 
 - git branch -a
 >It lists all branches in repository.
 
-- git checkout
->This changes the currently active branch. *Ex.*
+- git checkout -branchname-
+>This changes working directory to the specified branch. *Ex.* git checkout test
+
+- git merge -from name-
+>Command to join a specified branch into the current branch.
 
 - Save
 
 - Commit
 
-- Merge
+
 
 - Gitflow
