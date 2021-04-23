@@ -44,13 +44,13 @@
 >To configurate the personal email.  *Ex.*  git config --global user.email "example@gmail.com"
 
 - git init
->Is used to initialize a repository.  *Ex.* git init examplename
+>Is used to initialize a repository in current directory. You can name the repository with git init -name-  *Ex.* git init examplename
 
 - git clone
 >Command to clone an existent repository. *Ex.* git clone - url -
 
 
-## Basic workflow commands
+### ***Basic workflow commands***
 
 - Stage
 
@@ -61,8 +61,8 @@
 - git add
 >You can add a file to a repository. *Ex.* add README.md
 
-- git diff
->To see the changes not yet staged.  *Ex.* git diff
+- git diff -file-
+>To see the changes between working directory and staging area.  *Ex.* git diff example
 
 - git commit
 >This command is used to commit chages.
@@ -76,15 +76,18 @@
 - git mv
 >You can rename or move a file with this command.
 
-- ***Push to a remote repository***
+- Push to a remote repository
 
-## Branches
+### ***Branches***
 
-- git branch
->You use this command to create a branch.  *Ex.* 
+- git branch -name-
+>You use this command to create a new branch.  *Ex.* git branch test 
 
 - git branch -d
->With this command you erase a branch. *Ex.*
+>With this command you erase a branch. *Ex.* git branch-d test
+
+- git branch -a
+>It lists all branches in repository.
 
 - git checkout
 >This changes the currently active branch. *Ex.*
