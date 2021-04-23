@@ -49,21 +49,6 @@
 - git clone
 >Command to clone an existent repository. *Ex.* git clone - url -
 
-
-### ***Basic workflow commands***
-
-- Stage
-
-
--Commit
-
-
-- git add -filename-
->You can add a file to the staging area. *Ex.* add README.md
-
-- git reset -filname-
->To get the file back from staging area to working directory.  *Ex.* git reset example
-
 - git diff -file-
 >To see the changes between working directory and staging area.  *Ex.* git diff example
 
@@ -76,13 +61,38 @@
 - git log
 >It lists the commits made in the repository in reverse chronological order.
 
-- git rm
->Is used to remove a file from the working tree and from the index.
+- git rm -file-
+>Is used to remove a file from the working directory and add deletion to staging area. *Ex.* git rm example
 
 - git mv
 >You can rename or move a file with this command.
 
-- Push to a remote repository
+
+
+### ***Basic workflow commands***
+
+- git add -filename-
+>Command to add a file to the staging area.  *Ex.* git add example.md
+
+- git reset -namefile-
+>You can get a file back from staging area to working directory.  *Ex.* git reset example
+
+- git restore
+>To unstage files you don´t want to commit.
+
+- git commit -am ""
+>To automatically stage files that have been modified and deleted.
+
+- git fetch -remote-
+>To fetch changes from the remote repository.
+
+- git pull
+>Command to automatically fetch and then merge that remote branch into your current branch.
+
+- git push origin master
+>To push your master branch to your origin server and push any commits done back up to the server.
+
+
 
 ### ***Branches***
 
@@ -90,7 +100,7 @@
 >You use this command to create a new branch.  *Ex.* git branch test 
 
 - git branch -d -branchname-
->With this command you erase the selected branch. *Ex.* git branch-d test
+>With this command you can remove the selected branch. *Ex.* git branch-d test
 
 - git branch -a
 >It lists all branches in repository.
@@ -101,10 +111,19 @@
 - git merge -from name-
 >Command to join a specified branch into the current branch.
 
-- Save
 
-- Commit
+### ***Gitflow***
+- git flow init
+>To initialize it inside an existing repository.
 
+- git flow feature start MYFEATURE
+>Command to creat a new feature branch.
 
+- git flow feature finish MYFEATURE
+>It removes the feature branch.
 
-- Gitflow
+- git flow feature publish MYFEATURE
+>It publishes a feature to the remote server.
+
+- git flow feature pull origin MYFEATURE
+>You use it to get a feature published by another user.
